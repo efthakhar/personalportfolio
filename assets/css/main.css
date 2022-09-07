@@ -977,24 +977,14 @@ header #menu-btn:hover{
 }
 
 .contact .box-container{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    gap: 2rem;
+
+   
 }
 
 .contact-info{
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 42rem;
-        flex: 1 1 42rem;
+   display: flex;
+   justify-content:space-between;
+   flex-wrap: wrap;
 }
 
 .contact-info h3{
@@ -1009,7 +999,9 @@ header #menu-btn:hover{
 }
 
 .contact-info .info-item{
-    padding: 1rem 0;
+    flex: 0 0 45%;
+    /* padding: 1rem ; */
+    margin: 20px 10px;
 }
 
 .contact-info .info-item .gmail,
